@@ -60,7 +60,37 @@
     background-color: var(--color-B) ;
 }
 
+/* colore icone */
+.colorIcon{
+    color: var(--color-A);
+}
 
+/* font titolo navbar */
+.fontSTIX{
+    font-family: 'STIX Two Text', serif;
+}
+
+/* altezza carosello */
+.hCarousel{
+    height: 600px;
+}
+
+/* dimensioni immagini carosello */
+.imgCarousel{
+    object-fit: cover;
+    object-position: center;
+    height: 600px;
+    overflow: hidden;
+}
+.carousel-item:before {
+    content: "";
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
 
 
 
