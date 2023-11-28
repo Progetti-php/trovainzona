@@ -13,7 +13,7 @@
                     </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="{{route('articles')}}">
                         <span><i class="fa-solid fa-bullhorn fa-lg colorIcon"></i></span>
                     </a>
                 </li>
@@ -25,7 +25,7 @@
                     </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="{{route('contacts')}}">
                         <span><i class="fas fa-users fa-lg colorIcon"></i></span>
                         <span class="badge rounded-pill badge-notification bg-danger"></span>
                     </a>

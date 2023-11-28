@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PublicController::class, 'welcome'])->name('welcome');
 Route::get('/detail', [PublicController::class, 'detail'])->name('detail');
+Route::get('/contacts', [PublicController::class, 'contact'])->name('contacts');
+Route::get('/articles', [PublicController::class, 'indexArticles'])->name('articles');

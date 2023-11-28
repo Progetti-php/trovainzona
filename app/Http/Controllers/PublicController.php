@@ -13,4 +13,10 @@ class PublicController extends Controller
     public function detail () {
         return view('detail');
     }
+    public function contact() {
+        return view('contacts');
+    }
+    public function indexArticles() {
+        return view('articles');
+    }
 }
