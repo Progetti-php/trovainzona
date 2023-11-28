@@ -7,9 +7,13 @@
     
     <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
     <div class="bootstrap-iso">
-        <div class="container">
-            <div class="row">
+        <div class="container my-5">
+            <div class="row justify-content-center">
                 <div class="col-md-6 col-sm-6 col-xs-12">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
                     <form method="post" action="/register">
                         @csrf
                         {{-- NOME --}}

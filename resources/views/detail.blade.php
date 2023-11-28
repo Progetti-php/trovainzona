@@ -12,13 +12,13 @@
             <div class="col-5">
                 <div class="row flex-column">
                     <div class="col-2 d-flex align-self-center">
-                        <img class="rounded-circle" src="https:/picsum.photos/200" alt="">
+                        <img class="rounded-circle" src="https:/picsum.photos/200" alt="" data-aos="zoom-in-left">
                     </div>
                     <div class="col-2 d-flex align-self-end">
-                        <img class="rounded-circle" src="https:/picsum.photos/201" alt="">
+                        <img class="rounded-circle" src="https:/picsum.photos/201" alt="" data-aos="zoom-in-left">
                     </div>
                     <div class="col-2 d-flex align-self-center">
-                        <img class="rounded-circle" src="https:/picsum.photos/202" alt="">
+                        <img class="rounded-circle" src="https:/picsum.photos/202" alt="" data-aos="zoom-in-left">
                     </div>
                 </div>
                 
@@ -34,13 +34,13 @@
             <div class="col-5">
                 <div class="row flex-column">
                     <div class="col-2 d-flex align-self-center">
-                        <img class="rounded-circle" src="https:/picsum.photos/200" alt="">
+                        <img class="rounded-circle" src="https:/picsum.photos/200" alt="" data-aos="zoom-in-right">
                     </div>
                     <div class="col-2 d-flex align-self-start">
-                        <img class="rounded-circle" src="https:/picsum.photos/201" alt="">
+                        <img class="rounded-circle" src="https:/picsum.photos/201" alt="" data-aos="zoom-in-right">
                     </div>
                     <div class="col-2 d-flex align-self-center">
-                        <img class="rounded-circle" src="https:/picsum.photos/202" alt="">
+                        <img class="rounded-circle" src="https:/picsum.photos/202" alt="" data-aos="zoom-in-right">
                     </div>
                 </div>
                 

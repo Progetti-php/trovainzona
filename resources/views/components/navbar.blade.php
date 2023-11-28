@@ -8,25 +8,25 @@
             <ul class="navbar-nav flex-row d-none d-md-flex">
                 <li class="nav-item me-3 me-lg-1 active">
                     <a class="nav-link" href="/">
-                        <span><i class="fas fa-home fa-lg colorIcon"></i></span>
+                        <span class="fs-6 colorIcon"><i class="fas fa-home fa-lg colorIcon me-1"></i>Home</span>
                         <span class="badge rounded-pill badge-notification bg-danger"></span>
                     </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1">
                     <a class="nav-link" href="{{route('articles')}}">
-                        <span><i class="fa-solid fa-bullhorn fa-lg colorIcon"></i></span>
+                        <span class="fs-6 colorIcon"><i class="fa-solid fa-bullhorn fa-lg colorIcon me-1"></i>Annunci</span>
                     </a>
                 </li>
                 
                 
                 <li class="nav-item me-3 me-lg-1">
                     <a class="nav-link" href="{{route('detail')}}">
-                        <span><i class="fa-regular fa-newspaper fa-lg colorIcon"></i></span>
+                        <span class="fs-6 colorIcon"><i class="fa-regular fa-newspaper fa-lg colorIcon me-1"></i>Trova in Zona</span>
                     </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1">
                     <a class="nav-link" href="{{route('contacts')}}">
-                        <span><i class="fas fa-users fa-lg colorIcon"></i></span>
+                        <span class="fs-6 colorIcon"><i class="fas fa-users fa-lg colorIcon me-1"></i>Contatti</span>
                         <span class="badge rounded-pill badge-notification bg-danger"></span>
                     </a>
                 </li>
@@ -61,17 +61,17 @@
             <ul class="navbar-nav flex-row">
                 <li class="nav-item me-3 me-lg-1">
                     <a class="nav-link d-sm-flex align-items-sm-center" href="/register">
-                        <span><i class="fa-regular fa-address-card colorIcon fa-lg"></i></span>
+                        <span class="fs-6 colorIcon"><i class="fa-regular fa-address-card colorIcon fa-lg me-1"></i>Registrati</span>
                     </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1">
                     <a class="nav-link" href="#">
-                        <span><i class="fa-solid fa-pen-clip fa-lg colorIcon"></i></span>
+                        <span class="fs-6 colorIcon"><i class="fa-solid fa-pen-clip fa-lg colorIcon me-1"></i>Nuovo Annuncio</span>
                     </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1">
                     <a class="nav-link" href="#">
-                        <span><i class="fas fa-comments fa-lg colorIcon"></i></span>
+                        <span class="fs-6 colorIcon"><i class="fas fa-comments fa-lg colorIcon me-1"></i>Messaggi</span>
                     </a>
                 </li>
                 
@@ -86,7 +86,7 @@
                     aria-expanded="false"
                     >
                     <i class="fas fa-bell fa-lg colorIcon"></i>
-                    <span class="badge rounded-pill badge-notification bg-danger"></span>
+                    <span class="badge rounded-pill badge-notification bg-danger "></span>
                 </a>
                 <ul
                 class="dropdown-menu dropdown-menu-end"
