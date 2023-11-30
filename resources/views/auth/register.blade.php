@@ -8,12 +8,34 @@
     <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
     <div class="bootstrap-iso">
         <div class="container my-5">
+            
             <div class="row justify-content-center">
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                      </label>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p class="me-2 fw-bold">Utente</p>
+                        <label class="switch">
+                            <input name="checkbox" id="checkbox" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <p class="ms-2 fw-bold">Fornitore</p>
+                    </div>
+                    @if(Request::input('checkbox', true))
+                    {{-- <p>Cose</p> --}}
+                    @elseif(Request::input('checkbox', false))
+                    {{-- <p>Altre cose</p> --}}
+                    @endif
+                    {{-- <input type="checkbox" id="myCheck" onclick="myFunction()">
+                    
+                    <p id="text" style="display:none">Checkbox is CHECKED!</p> --}}
+                    @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    @endif
                     <form method="post" action="/register">
                         @csrf
                         {{-- NOME --}}

@@ -59,13 +59,36 @@
             
             <!-- Right elements -->
             <ul class="navbar-nav flex-row">
+                @guest
                 <li class="nav-item me-3 me-lg-1">
                     <a class="nav-link d-sm-flex align-items-sm-center" href="/register">
                         <span class="fs-6 colorW"><i class="fa-regular fa-address-card colorW fa-lg me-1"></i>Registrati</span>
                     </a>
                 </li>
+                    
                 <li class="nav-item me-3 me-lg-1">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link d-sm-flex align-items-sm-center" href="/login">
+                        <span class="fs-6 colorW"><i class="fa-solid fa-arrow-right-to-bracket fa-lg me-1"></i>Login</span>
+                    </a>
+                </li>
+                @endguest
+                <li class="nav-item me-3 me-lg-1 d-sm-flex align-items-sm-center fs-6 colorW">
+                    @auth
+                   Ciao {{Auth::user()->name}}
+                        
+                    
+                </li>
+                <li class="nav-item me-3 me-lg-1">
+                    <form method="POST" action="/logout">
+                        @csrf
+                        <button class="nav-link" type="submit">
+                            <span class="fs-6 colorW"><i class="fa-solid fa-arrow-right-from-bracket fa-lg me-1"></i>Logout</span>
+                        </button>
+                    </form>
+                </li>
+                @endauth
+                <li class="nav-item me-3 me-lg-1">
+                    <a class="nav-link" href="{{route('create.form')}}">
                         <span class="fs-6 colorW"><i class="fa-solid fa-pen-clip fa-lg colorW me-1"></i>Nuovo Annuncio</span>
                     </a>
                 </li>
